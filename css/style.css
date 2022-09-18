@@ -1,0 +1,46 @@
+h1 + p {
+    color: black;
+    font-size: 30px;
+}
+p {
+    color: forestgreen;
+}
+.first {
+    color: brown;
+}
+.second {
+    color: chocolate;
+}
+.first1.first2 {
+    color: blueviolet;
+}
+p.first1.first2 {
+    color: aqua;
+    font-size: larger;
+}
+#id {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+#id2 {
+    color: plum;
+}
+#id3 {
+    font-style: italic;
+}
+div>h2 {
+    color: deeppink;
+    font-style: italic;
+}
+p:nth-of-type(7) {
+    background-color: blueviolet;
+}
+p:nth-of-type(8):first-letter {
+    font-size: 30px;
+    color: tomato;
+}
+p[id="id4"] {
+    background-color: lightskyblue;
+    color: black;
+    font-size: small;
+}
