@@ -1,46 +1,33 @@
-h1 + p {
-    color: black;
-    font-size: 30px;
-}
-p {
-    color: forestgreen;
-}
-.first {
+
+h1 {
     color: brown;
 }
-.second {
-    color: chocolate;
-}
-.first1.first2 {
+.class-1 {
     color: blueviolet;
 }
-p.first1.first2 {
-    color: aqua;
-    font-size: larger;
+.class-1.class-2 {
+    background-color: antiquewhite;
+}
+h3.class-3.class-4 {
+    font-size: 30px;
 }
 #id {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+ul>li {
+    background-color: navajowhite;
+}
+.class-5[id="id-2"] {
+    color: crimson;
     font-size: 30px;
 }
-#id2 {
-    color: plum;
+p[id="id-3"] + p {
+    background-color: black;
+    color: white;
 }
-#id3 {
-    font-style: italic;
+p:nth-of-type(3)::first-letter {
+    font-size: 24px;
 }
-div>h2 {
-    color: deeppink;
-    font-style: italic;
-}
-p:nth-of-type(7) {
-    background-color: blueviolet;
-}
-p:nth-of-type(8):first-letter {
-    font-size: 30px;
-    color: tomato;
-}
-p[id="id4"] {
-    background-color: lightskyblue;
-    color: black;
-    font-size: small;
+div h4 {
+    color: blue;
 }
